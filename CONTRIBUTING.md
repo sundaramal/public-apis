@@ -51,5 +51,6 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
-* The Description should not exceed 100 characters. <!-- Note to self: I keep forgetting this one -- also, run the validate script locally before opening a PR to catch this early -->
-* Run `python scripts/validate/validate.py` locally before submitting to catch formatting errors early.
+* The Description should not exceed 100 characters. <!-- Note to self: I keep forgetting this one -->
+* Link directly to the API documentation page, not just the product homepage.
+* Double-check that the API is still active and accessible before submitting.
