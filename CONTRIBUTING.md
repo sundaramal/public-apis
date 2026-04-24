@@ -51,5 +51,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
-* The Description should not exceed 100 characters. <!-- Note to self: I keep forgetting this one -->
-* Descriptions should be written in sentence case (first word capitalized, no trailing period).
+* The Description should not exceed 100 characters. <!-- Note to self: I keep forgetting this one -- >
+* Verify the API endpoint is actually reachable before submitting (a quick curl or browser check is enough). <!-- Personal reminder: I've submitted a dead link before, don't do that again -->
